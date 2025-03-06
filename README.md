@@ -49,7 +49,7 @@ This project documents the setup of a honeypot using **Cowrie** (SSH/Telnet) and
 ## Testing the Honeypot
 - Use the **Hacker VM** to attempt SSH/Telnet access:
   ```bash
-  ssh user@<Cowrie_VM_IP>
+  ssh root@192.168.50.101
   ```
 - Check logs in `/cowrie/log/`
 
